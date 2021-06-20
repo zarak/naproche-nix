@@ -2,6 +2,17 @@
 
 [![Build Status](https://travis-ci.com/anfelor/Naproche-SAD.svg?branch=master)](https://travis-ci.com/anfelor/Naproche-SAD)
 
+## Setup with nix
+
+Run the following commands in the root directory:
+
+    nix-shell
+
+    nix-build
+
+    ./result/bin/Naproche-SAD -- examples/euclid.ftl.tex
+
+
 Proof Checking of Natural Mathematical Documents, with optional support
 for Isabelle Prover IDE.
 
